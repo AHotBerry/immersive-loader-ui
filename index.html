@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>System Initialization</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <canvas id="particle-canvas"></canvas>
+
+  <div class="loader-container">
+    <div class="ring-wrapper">
+      <div class="outer-ring"></div>
+      <div class="inner-ring"></div>
+      <div class="core-glow"></div>
+      <div class="percent-display" id="percent-text">0%</div>
+    </div>
+
+    <div class="status-box">
+      <div class="status-message" id="status-text">INITIALIZING CORE SYSTEM...</div>
+      <div class="progress-bar-bg">
+        <div class="progress-bar-fill" id="progress-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
